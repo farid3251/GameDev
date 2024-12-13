@@ -25,6 +25,7 @@ a {
     display: flex;
     justify-content: space-between; /* Distributes space between items */
     align-items: center; /* Vertically aligns items */
+    margin-bottom: 75px;
 }
 
 .title{
@@ -48,6 +49,7 @@ p{
     width: 800px;
     text-align: center;
     max-width: 80%;
+    margin: 75px;
 }
 
 .picrow{
@@ -55,7 +57,7 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     gap: 75px;
-    margin-top: 30px;
+    margin-bottom: 50px;
     padding: 0px 30px 20px 30px;
 }
 
