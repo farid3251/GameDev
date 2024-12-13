@@ -3,6 +3,20 @@ a {
     color: inherit;
 }
 
+
+
+#Footer{
+    font-size: 20px;
+    color: #FFE11E;
+    background-color: #393934;
+    padding: 20px;
+    width: 900px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around; /* Distributes space between items */
+    align-items: center; /* Vertically aligns items */
+}
+
 #navbar{
     font-size: 20px;
     color: #FFE11E;
@@ -13,7 +27,6 @@ a {
     display: flex;
     justify-content: space-between; /* Distributes space between items */
     align-items: center; /* Vertically aligns items */
-
 }
 
 .title{
