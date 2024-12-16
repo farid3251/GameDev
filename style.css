@@ -11,8 +11,8 @@ a {
     width: 900px;
     max-width: 90%;
     display: flex;
-    justify-content: space-around; /* Distributes space between items */
-    align-items: center; /* Vertically aligns items */
+    justify-content: center;
+    gap: 6%;
 }
 
 #navbar{
@@ -23,9 +23,7 @@ a {
     width: 900px;
     max-width: 90%;
     display: flex;
-    justify-content: space-between; /* Distributes space between items */
-    align-items: center; /* Vertically aligns items */
-    margin-bottom: 75px;
+
 }
 
 .title{
@@ -41,15 +39,14 @@ body{
     background-color: #1D1C18;
     font-family: Arial, Helvetica, sans-serif;
     justify-items: center;
-    margin: auto;
     color:#a09f98;
+
 }
 
 p{
     width: 800px;
     text-align: center;
-    max-width: 80%;
-    margin: 75px;
+    max-width: 90%;
 }
 
 .picrow{
@@ -57,7 +54,6 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     gap: 75px;
-    margin-bottom: 50px;
     padding: 0px 30px 20px 30px;
 }
 
@@ -78,6 +74,7 @@ p{
 
 .pic img {
     width: 250px;
+    object-fit: cover;
 }
 
 .picdev {
@@ -99,4 +96,37 @@ p{
 
 h1{
     color: #FFE11E;
+}
+
+h2 {
+    color: #FFE11E;
+    background-color: #393934;
+    width: 800px;
+    max-width: 90%;
+    text-align: center;
+    padding: 5px;
+}
+
+#review {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    max-width: 90%;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+#review p{
+    margin: 0;
+    width: 590px;
+}
+
+#review img {
+    width: 200px;
+}
+
+ul{
+    width: 800px;
+    max-width: 90%;
 }
