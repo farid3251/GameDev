@@ -49,19 +49,23 @@ a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 800px;
+    width: 850px;
     max-width: 95%;
     gap: 20px;
     transition: all 0.4s;
     margin-bottom: 20px;
 }
 
-#gun{
-    max-height: 175px;
+#picrow1{
+    max-height: 372px;
 }
 
-.paragraph img{
-    max-height: 300px;
+#picrow2{
+    max-height: 186px;
+}
+
+#picrow3{
+    max-height: 341px;
 }
 
 .paragraph_segment{
