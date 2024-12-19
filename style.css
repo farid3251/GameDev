@@ -268,7 +268,6 @@ select:-webkit-autofill {
 
 img {
     transition: 0.3s; /* Smooth scaling transition */
-    max-width: 95%;
 }
 
 img:hover {
