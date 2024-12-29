@@ -4,6 +4,11 @@ a {
     transition: 0.15s;
 }
 
+::selection {
+    background-color: #9D8DF1;
+    color: white;
+}
+
 a:hover{
     color: #9D8DF1;
 }
